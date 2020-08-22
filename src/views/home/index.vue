@@ -17,16 +17,18 @@
       </template>
     </nav-bar>
     <swiper-rotation />
-    <div>test</div>
+    <home-icon />
   </div>
 </template>
 <script>
 import NavBar from "@/components/navBar";
 import SwiperRotation from "@/views/home/components/SwiperRotation";
+import HomeIcon from "@/views/home/components/HomeIcon";
 export default {
   name: "Home",
   components: {
     NavBar,
+    HomeIcon,
     SwiperRotation
   },
   data() {
